@@ -1,0 +1,35 @@
+h1 {
+    color: green;
+}
+
+#mauDo {
+    color: red;
+}
+
+.mauXanh {
+    color: blue;
+}
+
+.mauTim {
+    color: purple;
+}
+
+li.mauTim {
+    font-style: italic;
+}
+
+li .mauXanh {
+    font-style: italic;
+}
+
+h1, p {
+    font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 30px;
+}

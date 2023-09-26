@@ -1,0 +1,100 @@
+table {
+    width: 100%;
+    background-color: green;
+    border: 1px solid red;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+table#collapse {
+    border-collapse: collapse;
+}
+
+table#separate {
+    border-collapse: separate;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: top;
+}
+
+p#right {
+    text-align: right;
+}
+
+p#center {
+    text-align: center;
+}
+
+p#justify {
+    text-align: justify;
+}
+
+p#overline {
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+a:active {
+    color: pink;
+}
+
+p {
+    text-indent: iem;  /*kich thuoc font mac dinh cua trinh duyet */
+}
+
+/* body {
+    font-size: 50px;
+} */
+
+ul {
+    list-style-image: url("https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fvi.m.wikipedia.org%2Fwiki%2FT%25E1%25BA%25ADp_tin%3AList-Icon.svg&psig=AOvVaw3mULN4rfGmrtM7otIsmCqi&ust=1695743457594000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOiDp-WOxoEDFQAAAAAdAAAAABAE");
+    list-style-position: inside;
+}
+
+/* ul {
+    list-style-type: square;
+} */
+
+ol {
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+
+.container div {
+    width: calc(100%/2 - 70px);
+    /* width: 230px; */    
+    /*realwidth - marginleft - borderleft - paddingleft - padright - borderright - marginright = 200 - 5 - 10 - 20 - 20 - 10 -5 = 230*/
+    height: 100px;
+    margin: 5px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red;
+    /* border:10px solid red; */
+    padding: 20px;
+    float: left;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    overflow: auto;
+}
