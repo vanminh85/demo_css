@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        div {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            background-color: gray;
+        }
+
+        body {
+            margin: 0; /*Canh noi dung sat le tren cua man hinh*/
+        }
+
+        #wrapper {
+            border: none;
+            width: 80%;
+            margin: 0 auto; /*Canh ta ca noi dung giua man hinh*/
+            background: none;
+        }
+
+        #logo {
+            text-align: left;
+        }
+
+        #navigation {
+            margin: 5px 0;
+        }
+
+        #sidebar {
+            float: left;
+            width: 25%;
+            margin: 10px 0;
+        }
+
+        #bodyarea {
+            float: right;
+            width: calc(100% - 25% - 5px - 45px);
+            margin: 10px 0;
+        }
+
+        #footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="logo">Logo</div>
+        <div id="navigation">Navigation</div>
+        <div id="banner">Header / Banner</div>
+        <div id="sidebar">Sidebar</div>
+        <div id="bodyarea">Body Area
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rerum eligendi dolores ipsam, quos molestiae assumenda quasi. Et veniam eos id fugiat odio voluptatem eligendi dicta ut! Maxime possimus quas magnam, dignissimos reprehenderit aut cumque dolorem. Officiis, deserunt. Quo aperiam nam fuga dignissimos voluptatem facere, quae maxime ea nobis fugiat quam natus, doloremque laudantium quaerat ab non dolore minus veritatis molestias, quod ullam repudiandae quidem! In, adipisci voluptatibus ipsum molestiae minima vel ipsa dolores ab soluta esse sunt eum a aut commodi magni debitis, blanditiis fugit odit. Magni, ullam! Sequi, accusantium nesciunt voluptas molestias explicabo perferendis nam sed iusto ut impedit deleniti quaerat fugiat corrupti ab neque rerum culpa aliquid dolores voluptatibus. Ipsam nesciunt asperiores quisquam rem!</p> -->
+        </div>
+        <div id="footer">Footer</div>       
+    </div>
+
+</body>
+</html>
